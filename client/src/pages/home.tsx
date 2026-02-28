@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         
         {/* Decorative stripe */}
-        <div className="absolute bottom-0 left-0 w-full h-4 diagonal-stripes z-20" />
+        <div className="absolute bottom-0 left-0 w-full h-4 horizontal-dashed-line text-primary z-20" />
       </section>
 
       {/* Services Section */}
@@ -181,7 +181,8 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-32 bg-primary text-primary-foreground relative overflow-hidden">
-        <div className="absolute inset-0 diagonal-stripes opacity-10" />
+        <div className="absolute top-12 left-0 w-full h-4 horizontal-dashed-line text-black opacity-10" />
+        <div className="absolute bottom-12 left-0 w-full h-4 horizontal-dashed-line text-black opacity-10" />
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-8 text-black">Ready to Draw the Line?</h2>
           <p className="text-2xl font-medium mb-12 max-w-2xl mx-auto text-black/80">
