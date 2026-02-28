@@ -111,8 +111,8 @@ export default function Home() {
                 className="relative z-10 w-full aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute bottom-8 -right-8 z-20 bg-primary text-primary-foreground p-6 max-w-xs shadow-2xl">
-                <p className="font-display font-black text-3xl mb-2">15+ Years</p>
-                <p className="font-bold uppercase tracking-wider text-sm">Industry Experience</p>
+                <p className="font-display font-black text-3xl mb-2">1 Year</p>
+                <p className="font-bold uppercase tracking-wider text-sm">And Growing Strong</p>
               </div>
             </div>
 
