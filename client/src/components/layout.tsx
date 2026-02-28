@@ -59,7 +59,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </p>
             </div>
 
-            <div className="md:col-span-5">
+            <div className="md:col-span-5 md:pl-[100px]">
               <h4 className="font-bold uppercase tracking-wider mb-6 text-white">Contact</h4>
               <ul className="space-y-4 text-muted-foreground">
                 <li className="flex items-center gap-3">
