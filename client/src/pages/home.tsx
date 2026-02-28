@@ -4,6 +4,7 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, Mail, HardHat, PaintRoller, Sh
 import heroImg from "@/assets/images/hero-parking-lines.jpg";
 import workerImg from "@/assets/images/worker-striping.jpg";
 import handicapImg from "@/assets/images/handicap-space.jpg";
+import logoImg from "@assets/StarYellow_1772248806006.png";
 
 export default function Home() {
   return (
@@ -12,9 +13,7 @@ export default function Home() {
       <nav className="fixed w-full z-50 top-0 border-b border-white/10 bg-background/80 backdrop-blur-md">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rotate-45 flex items-center justify-center">
-              <div className="w-4 h-4 bg-background -rotate-45" />
-            </div>
+            <img src={logoImg} alt="PrecisionLine Logo" className="h-10 w-auto object-contain" />
             <span className="font-display font-black text-2xl tracking-tighter uppercase">
               Precision<span className="text-primary">Line</span>
             </span>
@@ -200,9 +199,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-6 h-6 bg-primary rotate-45 flex items-center justify-center">
-                  <div className="w-3 h-3 bg-background -rotate-45" />
-                </div>
+                <img src={logoImg} alt="PrecisionLine Logo" className="h-8 w-auto object-contain" />
                 <span className="font-display font-black text-xl tracking-tighter uppercase">
                   Precision<span className="text-primary">Line</span>
                 </span>
