@@ -2,9 +2,9 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, CheckCircle2, Phone, Mail, HardHat, PaintRoller, ShieldCheck } from "lucide-react";
-import heroImg from "@/assets/images/hero-parking-lines.jpg";
-import workerImg from "@/assets/images/worker-striping.jpg";
-import handicapImg from "@/assets/images/handicap-space.jpg";
+import heroImg from "@assets/IMG_3604_1772252654758.JPG";
+import workerImg from "@assets/IMG_3981_1772252654759.JPG";
+import handicapImg from "@assets/IMG_3723_1772252654758.JPG";
 import Layout from "@/components/layout";
 
 export default function Home() {

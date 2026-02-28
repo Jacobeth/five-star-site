@@ -1,47 +1,57 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImg from "@/assets/images/hero-parking-lines.jpg";
-import workerImg from "@/assets/images/worker-striping.jpg";
-import handicapImg from "@/assets/images/handicap-space.jpg";
+import img3528 from "@assets/IMG_3528_1772252654756.JPG";
+import img3604 from "@assets/IMG_3604_1772252654758.JPG";
+import img3723 from "@assets/IMG_3723_1772252654758.JPG";
+import img3981 from "@assets/IMG_3981_1772252654759.JPG";
+import img3982 from "@assets/IMG_3982_1772252654769.JPG";
+import img4413 from "@assets/IMG_4413_1772252654769.JPG";
+import img4496 from "@assets/IMG_4496_1772252654770.JPG";
 import Layout from "@/components/layout";
 
 const projects = [
   {
-    title: "Commercial Retail Center",
-    category: "New Layout",
-    desc: "Full parking lot layout for a 200-space retail center including fire lanes, ADA spaces, directional arrows, and loading zones.",
-    image: heroImg,
-  },
-  {
-    title: "Industrial Warehouse Complex",
-    category: "Re-Striping",
-    desc: "Complete re-stripe of a 3-building warehouse facility with safety lanes, pedestrian walkways, and forklift paths.",
-    image: workerImg,
-  },
-  {
-    title: "Medical Office Park",
+    title: "ADA Handicap Stencil",
     category: "ADA Compliance",
-    desc: "ADA compliance upgrade for a medical campus — handicap spaces, access aisles, crosswalks, and compliant signage stenciling.",
-    image: handicapImg,
+    desc: "Crisp blue and white handicap stencil application with clean edges on fresh asphalt.",
+    image: img3528,
   },
   {
-    title: "Grocery Store Lot",
-    category: "Re-Striping",
-    desc: "Overnight re-stripe of a busy grocery store lot with zero business disruption. 150+ spaces completed before morning opening.",
-    image: heroImg,
+    title: "No-Parking Zone Markings",
+    category: "Custom Stenciling",
+    desc: "Bold yellow chevron markings to clearly designate no-parking and traffic flow zones.",
+    image: img3604,
   },
   {
     title: "Church Parking Lot",
     category: "New Layout",
-    desc: "Brand new layout design and striping for a newly paved church lot, maximizing capacity while maintaining easy traffic flow.",
-    image: workerImg,
+    desc: "Full ADA-compliant layout with handicap spaces, access aisles, and fresh white striping on a newly paved lot.",
+    image: img3723,
   },
   {
-    title: "Apartment Complex",
+    title: "Directional Arrows",
     category: "Custom Stenciling",
-    desc: "Numbered reserved spaces, visitor parking, fire lane markings, and speed limit stenciling for a 300-unit apartment community.",
-    image: handicapImg,
+    desc: "Bright yellow directional arrows guiding traffic flow through a commercial retail lot.",
+    image: img3981,
+  },
+  {
+    title: "Handicap Space with Access Aisle",
+    category: "ADA Compliance",
+    desc: "Blue and yellow handicap marking with properly dimensioned access aisles meeting all ADA specifications.",
+    image: img3982,
+  },
+  {
+    title: "Office Building ADA Upgrade",
+    category: "ADA Compliance",
+    desc: "Multiple ADA-compliant handicap spaces with fresh blue stencils, white striping, and proper signage placement at an office building.",
+    image: img4413,
+  },
+  {
+    title: "Directional Arrow Stencil",
+    category: "Re-Striping",
+    desc: "Clean white directional arrow on dark asphalt for clear traffic guidance in a commercial parking facility.",
+    image: img4496,
   },
 ];
 

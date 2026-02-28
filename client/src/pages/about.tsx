@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
-import workerImg from "@/assets/images/worker-striping.jpg";
+import workerImg from "@assets/IMG_4413_1772252654769.JPG";
 import Layout from "@/components/layout";
 
 export default function About() {
