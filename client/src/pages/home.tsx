@@ -43,7 +43,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block border-l-4 border-primary pl-4 mb-6">
-              <span className="text-primary font-bold tracking-widest uppercase text-sm">Professional Pavement Marking</span>
+              <span className="text-primary font-bold tracking-widest uppercase text-sm">Quality Line Striping</span>
             </div>
             <h1 className="text-6xl md:text-8xl font-black uppercase leading-[0.85] tracking-tighter mb-8">
               Make Your <br />
