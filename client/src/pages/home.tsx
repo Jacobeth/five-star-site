@@ -219,7 +219,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-primary" />
-                  info@fivestar.com
+                  fivestarlinestripingutah@gmail.com
                 </li>
                 <li className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-primary" />
