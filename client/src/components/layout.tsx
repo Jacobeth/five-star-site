@@ -46,8 +46,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <footer className="bg-background border-t border-white/10 pt-16 pb-8">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-12 mb-16">
-            <div className="col-span-1 md:col-span-2">
+          <div className="grid md:grid-cols-12 gap-12 mb-16">
+            <div className="md:col-span-3">
               <Link href="/" className="flex items-center gap-2 mb-6">
                 <img src={logoImg} alt="Five Star Line Striping Logo" className="h-8 w-auto object-contain" />
                 <span className="font-display font-black text-xl tracking-tighter uppercase">
@@ -59,25 +59,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </p>
             </div>
 
-            <div>
+            <div className="md:col-span-5">
               <h4 className="font-bold uppercase tracking-wider mb-6 text-white">Contact</h4>
               <ul className="space-y-4 text-muted-foreground">
                 <li className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-primary" />
+                  <Phone className="w-4 h-4 text-primary shrink-0" />
                   801-885-8316
                 </li>
                 <li className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 text-primary" />
-                  fivestarlinestripingutah@gmail.com
+                  <Mail className="w-4 h-4 text-primary shrink-0" />
+                  <span className="break-all">fivestarlinestripingutah@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <MapPin className="w-4 h-4 text-primary" />
+                  <MapPin className="w-4 h-4 text-primary shrink-0" />
                   Pleasant Grove, Utah
                 </li>
               </ul>
             </div>
 
-            <div>
+            <div className="md:col-span-4">
               <h4 className="font-bold uppercase tracking-wider mb-6 text-white">Services</h4>
               <ul className="space-y-3 text-muted-foreground">
                 <li><Link href="/services" className="hover:text-primary transition-colors">New Layouts</Link></li>
