@@ -148,7 +148,7 @@
   /* Magic border-radius values for a hand-drawn box look */
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   pointer-events: none;
-  transition: all 0.2s ease;
+  transition: all 0.1s ease;
   z-index: 10;
 }
 .painted-edge:hover::before {
