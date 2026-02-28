@@ -5,6 +5,7 @@ import heroImg from "@/assets/images/hero-parking-lines.jpg";
 import workerImg from "@/assets/images/worker-striping.jpg";
 import handicapImg from "@/assets/images/handicap-space.jpg";
 import logoImg from "@assets/StarYellow_1772248806006.png";
+import QuoteForm from "@/components/quote-form";
 
 export default function Home() {
   return (
@@ -23,9 +24,11 @@ export default function Home() {
             <a href="#about" className="hover:text-primary transition-colors">About Us</a>
             <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
           </div>
-          <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider" data-testid="button-quote-nav">
-            Get Estimate
-          </Button>
+          <a href="#quote">
+            <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider" data-testid="button-quote-nav">
+              Get Estimate
+            </Button>
+          </a>
         </div>
       </nav>
 
@@ -54,10 +57,12 @@ export default function Home() {
               Crisp, clear, and durable parking lot striping that ensures safety, compliance, and maximizes your property's curb appeal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-8 text-lg font-bold uppercase tracking-wider group" data-testid="button-quote-hero">
-                Request Free Quote
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <a href="#quote">
+                <Button size="lg" className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-8 text-lg font-bold uppercase tracking-wider group" data-testid="button-quote-hero">
+                  Request Free Quote
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
               <Button size="lg" variant="outline" className="rounded-none border-2 border-white/20 hover:bg-white/5 h-16 px-8 text-lg font-bold uppercase tracking-wider" data-testid="button-services-hero">
                 Our Services
               </Button>
@@ -179,6 +184,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quote Request Form Section */}
+      <section id="quote" className="py-24 bg-[#0a0a0a] border-y border-white/5">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-16">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-6">
+                Get Your <span className="text-primary">Free Estimate</span>
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                Fill out the form and we'll get back to you within 24 hours with a detailed quote for your project.
+              </p>
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <Phone className="w-6 h-6 text-primary" />
+                  <div>
+                    <p className="font-bold">Call Us Directly</p>
+                    <a href="tel:801-885-8316" className="text-primary text-lg font-bold hover:underline" data-testid="link-phone">801-885-8316</a>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Mail className="w-6 h-6 text-primary" />
+                  <div>
+                    <p className="font-bold">Email Us</p>
+                    <a href="mailto:fivestarlinestripingutah@gmail.com" className="text-primary hover:underline" data-testid="link-email">fivestarlinestripingutah@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <QuoteForm />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-32 bg-primary text-primary-foreground relative overflow-hidden">
         <div className="absolute top-12 left-0 w-full h-4 horizontal-dashed-line text-black opacity-10" />
@@ -188,9 +228,11 @@ export default function Home() {
           <p className="text-2xl font-medium mb-12 max-w-2xl mx-auto text-black/80">
             Contact us today for a free, no-obligation estimate on your next pavement marking project.
           </p>
-          <Button size="lg" className="rounded-none bg-black text-white hover:bg-black/90 h-16 px-12 text-xl font-black uppercase tracking-wider shadow-[8px_8px_0px_0px_rgba(255,255,255,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.3)] transition-all" data-testid="button-final-cta">
-            Schedule Your Estimate
-          </Button>
+          <a href="#quote">
+            <Button size="lg" className="rounded-none bg-black text-white hover:bg-black/90 h-16 px-12 text-xl font-black uppercase tracking-wider shadow-[8px_8px_0px_0px_rgba(255,255,255,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.3)] transition-all" data-testid="button-final-cta">
+              Schedule Your Estimate
+            </Button>
+          </a>
         </div>
       </section>
 
