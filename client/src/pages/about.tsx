@@ -50,7 +50,7 @@ export default function About() {
                   "Fully licensed, bonded, and insured",
                   "Minimal disruption to your business operations",
                   "Free on-site estimates with fast turnaround",
-                  "Serving all of Utah",
+                  "Proudly serving Utah County",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
                     <CheckCircle2 className="w-6 h-6 text-primary shrink-0" />
