@@ -72,7 +72,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </li>
                 <li className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-primary" />
-                  Utah
+                  Pleasant Grove, Utah
                 </li>
               </ul>
             </div>
