@@ -12,6 +12,11 @@ A marketing website for Five Star Line Striping, a parking lot line striping com
 ## Architecture
 - `client/` - Frontend React app
   - `src/pages/home.tsx` - Main landing page
+  - `src/pages/services.tsx` - Full services listing page
+  - `src/pages/about.tsx` - About the company page
+  - `src/pages/projects.tsx` - Recent projects gallery
+  - `src/pages/quote.tsx` - Quote request form page
+  - `src/components/layout.tsx` - Shared nav + footer layout
   - `src/components/quote-form.tsx` - Quote request form with validation
   - `src/components/ui/` - shadcn/ui components (custom painted-edge button style)
   - `src/index.css` - Design system (dark theme, safety yellow primary, asphalt texture)
