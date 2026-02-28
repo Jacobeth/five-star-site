@@ -46,7 +46,7 @@ export default function About() {
               <ul className="space-y-6">
                 {[
                   "Premium traffic-rated paint formulations",
-                  "Laser-guided airless spray equipment",
+                  "High-quality airless spray equipment",
                   "Fully licensed, bonded, and insured",
                   "Minimal disruption to your business operations",
                   "Free on-site estimates with fast turnaround",
